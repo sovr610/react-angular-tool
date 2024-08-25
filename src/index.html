@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React + Angular Hybrid App</title>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+    <style>
+        .main-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* This will create two equal columns */
+}
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <div>
+            <div id="react-root"></div>
+        </div>
+        <div>
+            <app-root></app-root>
+        </div>
+    </div>
+
+</body>
+</html>
