@@ -42,7 +42,7 @@ This project demonstrates a unique approach to web development by combining Reac
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/react-angular-hybrid-app.git
+   git clone https://github.com/sovr610/react-angular-tool.git
    ```
 
 2. Install dependencies:
