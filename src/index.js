@@ -37,17 +37,7 @@ platformBrowserDynamic().bootstrapModule(AppModule).catch(err => console.error(e
 // Add some basic global styles
 const style = document.createElement('style');
 style.textContent = `
-  body {
-    font-family: 'Courier New', monospace;
-    background-color: #0a0a0a;
-    color: #00ff00;
-    padding: 20px;
-  }
-  
-  h1, h2 {
-    color: #00ff00;
-    text-shadow: 0 0 5px #00ff00;
-  }
+
   
   #react-root, app-root {
     margin-bottom: 40px;
